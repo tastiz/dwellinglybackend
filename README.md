@@ -11,8 +11,10 @@ source env/bin/activate
 # Run
     pipenv run flask run 
 # Run 
+    #If running pip3, pip3 is needed to correctly install flask and the following line
     pip install --no-cache-dir -r requirements.txt
 # Run
+    #If already in a virtual environment, only use $ flask run
     pipenv run flask run 
 
 # Postman  Collection link
